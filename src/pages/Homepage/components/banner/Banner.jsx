@@ -1,7 +1,7 @@
 import React from "react";
 import { usePopularMoviesQuery } from "../../../../hooks/usePopularMovies";
 import { Alert } from "bootstrap";
-import "./Banner.style.css";
+
 
 const Banner = () => {
   // const { data } = usePopularMoviesQuery();
