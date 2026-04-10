@@ -14,15 +14,14 @@ const Applayout = () => {
     const goToHomepage=()=>{
        navigate('/')
     }
-
-    const goToMovies=()=>{
-         navigate('movies')
+      const goToMovies=()=>{
+         navigate('/movies');
     }
   return (
     <div>
-     <Navbar style={{ backgroundColor: '#000'} } data-bs-theme="dark"  onClick={goToHomepage}>
+     <Navbar style={{ backgroundColor: '#000'} } data-bs-theme="dark"  >
       <Container fluid>
-        <Navbar.Brand href="#"><img width={100} src='https://images.ctfassets.net/4cd45et68cgf/4nBnsuPq03diC5eHXnQYx/d48a4664cdc48b6065b0be2d0c7bc388/Netflix-Logo.jpg'/></Navbar.Brand>
+        <Navbar.Brand href="#"><img onClick={goToHomepage} width={100} src='https://images.ctfassets.net/4cd45et68cgf/4nBnsuPq03diC5eHXnQYx/d48a4664cdc48b6065b0be2d0c7bc388/Netflix-Logo.jpg'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
