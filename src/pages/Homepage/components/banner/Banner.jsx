@@ -1,6 +1,6 @@
 import React from "react";
 import { usePopularMoviesQuery } from "../../../../hooks/usePopularMovies";
-import "./Banner.style.css";
+import "./banner.style.css";
 
 
 const Banner = () => {
