@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from './components/banner/Banner;
+import Banner from './components/banner/Banner';
 
 
 const Homepage = () => {
@@ -10,4 +10,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default Homepage;
